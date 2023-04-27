@@ -2,7 +2,9 @@
 Simple Addition Program in react-native using navigation from one screen to another screen 
 
 Home Screen
-![Screenshot 2023-04-27 at 4 26 20 PM](https://user-images.githubusercontent.com/130955657/234842353-3a6c48fe-f7e7-4ecc-8f78-a686a371194e.png)
+![Screenshot 2023-04-27 at 4 47 22 PM](https://user-images.githubusercontent.com/130955657/234846711-49313e62-0636-4666-80fb-054ea00eb02d.png)
+
 
 After Adding The two numbers
-![Screenshot 2023-04-27 at 4 27 19 PM](https://user-images.githubusercontent.com/130955657/234842546-98f4174b-14d0-421b-8046-9ed3c944f740.png)
+![Screenshot 2023-04-27 at 4 48 10 PM](https://user-images.githubusercontent.com/130955657/234846827-d8a2cfea-fee7-42aa-9a01-6c409645b9a2.png)
+
