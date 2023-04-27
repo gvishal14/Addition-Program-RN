@@ -7,8 +7,8 @@ export default function Login({route}) {
     const {result} =route.params
    
   return (
-    <View>
-     <Text>Result: {result}</Text>
+    <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+     <Text style={{fontSize: 30, color:'black'}} >Result: {result}</Text>
     </View>
   )
 }

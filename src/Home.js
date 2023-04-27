@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View,TextInput,Button } from 'react-native'
 import React,{useState} from 'react'
 import Login from './Login';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Home({navigation}) {
     
@@ -16,23 +17,26 @@ const handleAddition=()=>{
   return(
   
   <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
-    <Text style={{fontSize: 30}}>User Screen</Text>
-    <Text>Enter two numbers to add:</Text>
+    <Text style={{fontSize: 30, color:'black'}}>User Screen</Text>
+    <Text style={{fontSize:30, color:'blue'}}>Enter two numbers to Add:</Text>
       <TextInput
-        style={{ borderWidth: 1, margin: 5, padding: 5 }}
+        style={{ borderWidth: 2, margin: 6, padding: 10,width:160 }}
         keyboardType="numeric"
         placeholder="Enter first number"
         value={number1}
         onChangeText={(text) => setNumber1(text)}
       />
        <TextInput
-        style={{ borderWidth: 1, margin: 5, padding: 5 }}
+        style={{ borderWidth: 2, margin: 5, padding: 10, width:160 }}
         keyboardType="numeric"
         placeholder="Enter second number"
         value={number2}
         onChangeText={(text) => setNumber2(text)}
       />
-    <Button title='On Addition' onPress={handleAddition} />
+      <TouchableOpacity>
+        <Button title='On Addition' onPress={handleAddition} />
+      </TouchableOpacity>
+    
   </View>)
 }
 
