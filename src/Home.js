@@ -30,7 +30,7 @@ const handleAddition=()=>{
         style={{ borderWidth: 2, margin: 5, padding: 10, width:160 }}
         keyboardType="numeric"
         placeholder="Enter second number"
-        value={number2}
+        value={number2} 
         onChangeText={(text) => setNumber2(text)}
       />
       <TouchableOpacity>
