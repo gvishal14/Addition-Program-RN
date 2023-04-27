@@ -34,7 +34,7 @@ const handleAddition=()=>{
         onChangeText={(text) => setNumber2(text)}
       />
       <TouchableOpacity>
-        <Button title='On Addition' onPress={handleAddition} />
+        <Button title='On Addition' onPress={handleAddition} /> 
       </TouchableOpacity>
     
   </View>)
